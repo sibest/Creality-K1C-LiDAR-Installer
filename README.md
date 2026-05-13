@@ -45,7 +45,7 @@ The sticker must be printed and attached to the sticker holder, which is then sc
 
 The sticker should be placed roughly in the center of the holder. It does not need to be positioned with perfect accuracy, because the firmware will try to locate it automatically during calibration.
 
-![Sticker Position](images/sticker.jpg)
+![Sticker Position](images/sticker_resized.jpg)
 
 This video explains the physical installation process on the K1 / K1C:
 
