@@ -12,7 +12,7 @@ Automated software patch and installer for enabling the Creality LiDAR workflow 
 
 YouTube video showing the full print start workflow through LiDAR:
 
-[YOUTUBE VIDEO PLACEHOLDER]
+https://www.youtube.com/watch?v=rNH4aED0HTA
 
 ---
 
@@ -44,6 +44,8 @@ And the calibration sticker:
 The sticker must be printed and attached to the sticker holder, which is then screwed onto the build plate.
 
 The sticker should be placed roughly in the center of the holder. It does not need to be positioned with perfect accuracy, because the firmware will try to locate it automatically during calibration.
+
+![Sticker Position](images/sticker.jpg)
 
 This video explains the physical installation process on the K1 / K1C:
 
@@ -222,7 +224,7 @@ The installer only edits `printer.cfg` to add these includes if they are missing
 
 After applying this patch, the print start workflow becomes:
 
-1. Full **9x9 bed mesh** calculation, used to improve the accuracy of the LiDAR calibration test lines
+1. Full **3x3 bed mesh** calculation, used to improve the accuracy of the LiDAR calibration test lines
 2. Adaptive bed mesh calculation for the actual printed objects
 3. LiDAR calibration
 4. Pressure Advance calibration line print
